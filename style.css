@@ -1,0 +1,64 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#weather-info{
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+#city {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#temperature{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#description {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#icon {
+    margin-top: 1rem;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 2rem;
+    }
+
+    #weather-info {
+        padding: 1rem;
+    }
+
+    #city{
+        font-size: 1rem;
+    }
+
+    #temperature {
+        font-size: 2rem;
+    }
+
+    #description {
+        font-size: 1rem;
+    }
+}
